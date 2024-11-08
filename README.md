@@ -1,35 +1,25 @@
-# Pokémon Crystal [![Build Status][ci-badge]][ci]
+# Pokémon Crystal Expansion Rom Hack
 
-This is a disassembly of Pokémon Crystal.
+This is the start of an expansion to vanilla Pokemon Crystal
+to enhance the experience with quality of life features.
 
-It builds the following ROMs:
+Based off the decompilation from https://github.com/pret/pokecrystal
 
-- Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
-- Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc `sha1: f2f52230b536214ef7c9924f483392993e226cfb`
-- Pokemon - Crystal Version (A) [C][!].gbc `sha1: a0fc810f1d4e124434f7be2c989ab5b5892ddf36`
-- CRYSTAL_ps3_010328d.bin `sha1: c60d57a24bbe8ecf7cba54ab3f90669f97bd330d`
-- CRYSTAL_ps3_us_revise_010710d.bin `sha1: 391ae86b1d5a26db712ffe6c28bbf2a1f804c3c4`
-- CGBBYTE1.784.patch `sha1: a25517f60ca0e887d39ec698aa56a0040532a4b3`
+# What this hack will have
 
-To set up the repository, see [INSTALL.md](INSTALL.md).
+-Restored GS Ball Celebi event: Activated after defeating the Elite Four
+and becoming champion, as soon as you can, visit the Goldenrod Pokemon Center
+and the event will start, an aide in the center will come up and give you
+the GS Ball item, which you can give to Kurt who will give it to you the
+next day, and comments that it seems something strange is happening in
+Azalea Forest, go there to the shrine and place the GS Ball in it and battle
+and/or catch Celebi.
 
+-Gen 6 Exp. Share: Instead of holding the item to help level up one particular mon
+each mon not in the battle in the party will recieve a reduced amount of exp after 
+each victory, keeping the item in the Key Items pocket.
 
-## See also
+-Get experience from catching Pokemon: Your starter and the rest of your team will
+have shared experience from catching Pokemon.
 
-- [**FAQ**](FAQ.md)
-- [**Documentation**][docs]
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
-
-You can find us on [Discord (pret, #pokecrystal)](https://discord.gg/d5dubZ3).
-
-For other pret projects, see [pret.github.io](https://pret.github.io/).
-
-[docs]: https://pret.github.io/pokecrystal/
-[wiki]: https://github.com/pret/pokecrystal/wiki
-[tutorials]: https://github.com/pret/pokecrystal/wiki/Tutorials
-[symbols]: https://github.com/pret/pokecrystal/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokecrystal/actions
-[ci-badge]: https://github.com/pret/pokecrystal/actions/workflows/main.yml/badge.svg
+-Reusable TMs: All TMs will be reusable.
