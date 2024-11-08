@@ -36,4 +36,9 @@ and Seasick https://github.com/SeasickShore for their sprites.
 -Show move names for TMs and HMs whether recieving or buying: This will make buying from
 the stores a lot easier.
 
+-The project is still a work in progress even with implemented features and no release
+will come as of yet.
+
+-Progress: Coding: (in-progress, debugging) Build: Failed as of 11/7/2024 
+
 Anything not labeled as (done) is still a work in progress.  More to come!
