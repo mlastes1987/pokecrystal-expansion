@@ -129,6 +129,8 @@ MACRO object_event
 	if DEF(_NUM_OBJECT_EVENTS)
 		DEF {_NUM_OBJECT_EVENTS} += 1
 	endc
+def_object_events
+object_event  4,  1, SPRITE_RED, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TradebackNPCScript, -1
 ENDM
 
 MACRO trainer
@@ -188,3 +190,4 @@ MACRO stonetable
 	db \1, \2
 	dw \3
 ENDM
+

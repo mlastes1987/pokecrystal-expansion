@@ -5,6 +5,7 @@
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
 	const ELMSLAB_OFFICER
+	const ELMSLAB_TRADEBACKNPC
 
 ElmsLab_MapScripts:
 	def_scene_scripts
@@ -580,6 +581,14 @@ ElmsLabWindow:
 
 .Normal:
 	writetext ElmsLabWindowText1
+	waitbutton
+	closetext
+	end
+
+TradebackNPCScript:
+	faceplayer
+	opentext
+	special TradebackNPC
 	waitbutton
 	closetext
 	end
